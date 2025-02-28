@@ -1,8 +1,8 @@
 import { StyleSheet } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
-import ArchivistDashboard from "../../components/ArchivistDashboard"
+import ArchivistDashboard from "../components/ArchivistDashboard"
 
-export default function TabTwoScreen() {
+export default function ArchivistScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <ArchivistDashboard />
